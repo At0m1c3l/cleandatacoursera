@@ -187,3 +187,7 @@ There are three aspects (including this file) in the repository for this assignm
 * README.md 
 
 ###### A markdown file that explains how parts of the analysis script work, and how they're connected.
+
+* finaldata.txt
+
+###### The cleaned data. Must be read in RStudio to be viewed.
