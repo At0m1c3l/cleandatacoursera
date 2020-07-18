@@ -41,4 +41,4 @@ names(CleanData) <- gsub("angle", "Angle", names(CleanData))
 RenamedData <- CleanData
 ## Step 5 - Summary Means Dataset
 Tidydata <- aggregate(RenamedData[,1:66], by = list(Activity = RenamedData$Activity, SubjectID = RenamedData$Subject),FUN = mean)
-write.table(x = Tidydata, file = "finaldata.txt")
+write.table(x = Tidydata, file = "finaldata.txt", row.name = FALSE)
